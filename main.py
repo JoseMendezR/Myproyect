@@ -1,7 +1,7 @@
 refraccion = 100000
 seguir = True
 while seguir:
-    cantidad = input("Ingresa el número de refracciones ($100000 x Unidad) a comprar:")
+    cantidad = input("Ingrese el número de refracciones a comprar ($100000 x Unidad):")
 
     if cantidad.isdigit():
         cantidad = int(cantidad)
